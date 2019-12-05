@@ -1,3 +1,8 @@
+---
+layout: default
+title: tpgrphの備忘録
+---
+
 <!-- TOC -->
 
 - [1. 初めに](#1-%e5%88%9d%e3%82%81%e3%81%ab)
