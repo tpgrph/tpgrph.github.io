@@ -199,6 +199,6 @@ BeamerにはBeamerで用いたスライドをそのままposterに援用する�
 \renewcommand\thebibliography[1]{%
   \oldthebibliography{#1}%
   \setlength{\parskip}{\bibitemsep}%
-  \setlength{\itemsep}{\bibparskip}%
-}
+  \setlength{\itemsep}{\bibparskip}%}
 ```
+
