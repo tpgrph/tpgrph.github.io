@@ -7,3 +7,5 @@
 自分も参照しやすいためだ。
 
 [![](https://img.youtube.com/vi/DWVLmId5IH4/0.jpg)](https://www.youtube.com/watch?v=DWVLmId5IH4)
+
+関係ないけどKHシリーズいいよね
