@@ -37,7 +37,8 @@ TeXLiveで標準装備
 pLaTeXを使えるようにするには設定を調整する必要があるが、
 TeXWorksと少し勝手が違うため自分は最初混乱したが
 下のリンクを見ることで解決した。
-[https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=1623:embed:cite]
+
+[QA: TexStudio，TeXmakerの利用](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=1623)
 
 # 3. pLaTeX全般
 
@@ -148,7 +149,7 @@ mathscinetから文献情報をBibtexで出力して入力したが、エラー�
 次のサイトが便利である。それぞれの記事の種類に対して
 書くべき項目が自動で教えてくれる。
 
-()[https://truben.no/latex/bibtex/]
+[BibTeX Online Editor](https://truben.no/latex/bibtex/)
 
 ただし、TeXStudioがあればそれでもすぐわかる。
 
@@ -185,4 +186,18 @@ BeamerにはBeamerで用いたスライドをそのままposterに援用する�
 参考文献の行間の調整は少し手間がかかる。
 解決するには次のようにすればよい。
 
-[http://www.math.cmu.edu/~gautam/sj/blog/20140712-bibtex-spacing.html:embed:cite]
+[Adjusting the space between references in the bibliography.](http://www.math.cmu.edu/~gautam/sj/blog/20140712-bibtex-spacing.html)
+
+[bibspacing.sty](http://www.math.cmu.edu/~gautam/sj/blog/20140712-bibtex-spacing/bibspacing.sty)
+
+**`bibspacing.sty`**
+``` 
+\newlength{\bibitemsep}\setlength{\bibitemsep}{.2\baselineskip plus .05\baselineskip minus .05\baselineskip}
+\newlength{\bibparskip}\setlength{\bibparskip}{0pt}
+\let\oldthebibliography\thebibliography
+\renewcommand\thebibliography[1]{%
+  \oldthebibliography{#1}%
+  \setlength{\parskip}{\bibitemsep}%
+  \setlength{\itemsep}{\bibparskip}%
+}
+```
