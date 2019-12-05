@@ -191,6 +191,7 @@ BeamerにはBeamerで用いたスライドをそのままposterに援用する�
 [bibspacing.sty](http://www.math.cmu.edu/~gautam/sj/blog/20140712-bibtex-spacing/bibspacing.sty)
 
 **`bibspacing.sty`**
+
 ``` 
 \newlength{\bibitemsep}\setlength{\bibitemsep}{.2\baselineskip plus .05\baselineskip minus .05\baselineskip}
 \newlength{\bibparskip}\setlength{\bibparskip}{0pt}
