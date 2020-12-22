@@ -11,11 +11,14 @@ title: tpgrphの備忘録
 
 # もくじ
 <details>
+<div>
 
 [LaTeXトラブル録](https://tpgrph.github.io/aboutlatex)
 
+</div>
+<div>
 
 [数学関係のリンク集](https://tpgrph.github.io/mathlink)
 
-
+</div>
 </details>
