@@ -18,6 +18,7 @@
         - [3.4.2. 参考文献を自前で書かないといけない場合](#342-参考文献を自前で書かないといけない場合)
         - [3.4.3. A0サイズでフォントが汚くなる現象](#343-a0サイズでフォントが汚くなる現象)
         - [3.4.4. BibTeXの行間の調整](#344-bibtexの行間の調整)
+        - [3.4.5. 各章ごとのBibTeXの利用(bibunits)がうまくいかない](#345-各章ごとのbibtexの利用bibunitsがうまくいかない)
 
 <!-- /TOC -->
 
@@ -191,3 +192,15 @@ BeamerにはBeamerで用いたスライドをそのままposterに援用する�
 [bibspacing.sty](http://www.math.cmu.edu/~gautam/sj/blog/20140712-bibtex-spacing/bibspacing.sty)
 
 **`bibspacing.sty`**
+
+### 3.4.5. 各章ごとのBibTeXの利用(bibunits)がうまくいかない
+
+**原因**
+
+分割生成された.auxファイルごとにbibtex.exeが実行されていない
+
+bibtex.exe % をbibtex.exe ?*.aux に置き換えた
+
+ただし、F8以外(例えばデフォルトのビルド)も変えてしまうと
+
+普段使いでの処理時間が若干増えるので変更はしていない

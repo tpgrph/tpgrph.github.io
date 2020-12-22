@@ -1,0 +1,1 @@
+[YouTubeのサムネイルをMarkdownで埋め込むための文字列変換というページ](https://www.tecking.org/youtube-markdown/#)
