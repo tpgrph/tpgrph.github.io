@@ -11,6 +11,7 @@ title: tpgrphの備忘録
 
 # もくじ
 <details>
+
 [LaTeXトラブル録](https://tpgrph.github.io/aboutlatex)
 
 [Github pages]()
